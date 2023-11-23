@@ -107,9 +107,10 @@ footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: smaller;
     font-weight: bolder;
-    color: rgb(141, 182, 0);
-    
-}
+    color: rgb(141, 182, 0);}
+
+meta {
+    name="viewport" content="width=device-width, initial-scale=1.0";}
 
 
 
