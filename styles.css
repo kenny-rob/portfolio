@@ -1,1 +1,170 @@
-styles.css
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Nova Square', sans-serif;
+  background-color: rgb(141, 182, 0);
+}
+
+.topnav {
+    background-color: rgb(249, 248, 248);
+    overflow: hidden;
+    text-align: center;
+    border: 3ch;
+    border-style: double;
+    border-width: 1ch;
+    border-color: rgb(141, 182, 0)
+  }
+  
+  .topnav a {
+    font-weight: bolder;
+    font-size: medium;
+    color: rgb(36, 33, 36);
+    padding: 14px;
+    text-decoration: none;
+    display: inline-block; /* Use inline-block to allow padding and centering */
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(141, 182, 0);
+    color: rgb(36, 33, 36);
+  }
+  
+  .topnav a:active {
+    background-color: rgb(249, 248, 248);
+    color: rgb(141, 182, 0);
+    text-decoration: underline;
+  }  
+
+h1 {
+  background-color: rgb(36, 33, 36);
+  padding-bottom: 0.5%;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: rgb(141, 182, 0);
+  padding: 5%;
+  border-style:double;
+  border-width: 1ch;
+}
+#work {
+padding-top: 5%;
+padding-bottom: 5%;
+background-color: rgb(36, 33, 36)
+
+
+}
+
+#aboutme {
+  background-color: rgb(36, 33, 36);
+  font-weight: 100;
+  font-size: x-large;
+  color: rgb(141, 182, 0);
+  border-style: double;
+  border-width: 1ch;
+  border-color: rgb(141, 182, 0);
+}
+
+.mepic {
+    background-color: rgb(249, 248, 248);
+    border-radius: 80%;
+    border-style: dotted;
+    border-width: 1ch;
+    border-color: rgb(36, 33, 36);
+
+}
+
+#intro {
+  background-color: rgb(249, 248, 248);
+  font-weight: bolder;
+  font-size: larger;
+  color: rgb(36, 33, 36);
+}
+
+#contact {
+  background-color: rgb(36, 33, 36);
+  font-weight: 100;
+  font-size: x-large;
+  color: rgb(141, 182, 0);
+  border-style: double;
+  border-color: rgb(141, 182, 0);
+  border-width: 1ch;
+}
+
+#info {
+  background-color: rgb(249, 248, 248);
+  font-weight: bolder;
+  font-size: larger;
+  color: rgb(36, 33, 36);
+  padding: 1%;
+}
+
+.navbar {
+  background-color: rgb(249, 248, 248);
+  overflow: hidden;
+}
+
+.navbar a {
+  display: block;
+  color: rgb(36, 33, 36);
+  text-align: center;
+  padding: 0.5%;
+  text-decoration: wavy;
+  font-size: small;
+  padding-bottom: 1%;
+}
+.navbar a:hover {
+    background-color: rgb(141, 182, 0);
+    color: rgb(36, 33, 36);
+  }
+#things {
+  background-color: rgb(36, 33, 36);
+  text-align: center;
+  padding-top: 5%;
+
+}
+
+table, th, td {
+  border: 3px solid rgb(249, 248, 248);
+  border-collapse: collapse;
+  box-align: center;
+  margin:auto; /*center of the table*/
+}
+td a {
+    color: rgb(36, 33, 36);
+}
+
+td:hover {
+background-color: rgb(249, 248, 248);
+color: rgb(36, 33, 36);
+}
+
+th {
+  background-color: rgb(36, 33, 36);
+  font-size: medium;
+  color: rgb(141, 182, 0);
+  padding: 1%;
+}
+
+td {
+  background-color: rgb(141, 182, 0);
+  font-size: medium;
+  font-weight: bold;
+  color: rgb(36, 33, 36);
+  padding: 1%;
+}
+
+footer {
+  background-color: rgb(141, 182, 0);
+  font-size: small;
+  font-weight: bolder;
+  color: rgb(36, 33, 36);
+  border: 1ch solid rgb(36, 33, 36);
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    body 
+      font-size: 14px;
+    }
