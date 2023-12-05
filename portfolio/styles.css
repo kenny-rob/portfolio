@@ -161,6 +161,24 @@ footer {
   color: rgb(36, 33, 36);
   border: 1ch solid rgb(36, 33, 36);
 }
+#btn-alert{
+  background-color: rgb(36, 33, 36);
+  color: rgb(141, 182, 0);
+  font-size: large;
+  padding: 10px 20px;
+  font size: 16px;
+  border-radius: 50%
+  
+}
+.even {
+  /* Styles for even count */
+  color: rgb(141, 182, 0);
+}
+
+.odd {
+  /* Styles for odd count */
+  color: rgb(36, 33, 36);
+}
 
 /* Adding a media query for smaller screens */
 @media only screen and (max-width: 600px) {
