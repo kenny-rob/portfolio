@@ -6,26 +6,25 @@ body {
   flex-direction: column;
   font-family: 'Nova Square', sans-serif;
   background-color: rgb(141, 182, 0);
+  margin: auto;
+  padding: auto;
 }
 
 .topnav {
-    background-color: rgb(249, 248, 248);
-    overflow: hidden;
-    text-align: center;
-    border: 3ch;
-    border-style: double;
-    border-width: 1ch;
-    border-color: rgb(141, 182, 0)
-  }
-  
-  .topnav a {
-    font-weight: bolder;
-    font-size: medium;
-    color: rgb(36, 33, 36);
-    padding: 14px;
-    text-decoration: none;
-    display: inline-block; /* Use inline-block to allow padding and centering */
-  }
+  background-color: rgb(249, 248, 248);
+  overflow: hidden;
+  text-align: center;
+  border: 1px solid rgb(141, 182, 0); /* Adding a border for better visibility */
+}
+
+.topnav a {
+  font-weight: bolder;
+  font-size: medium;
+  color: rgb(36, 33, 36);
+  padding: 8px 12px; /* Adjusted padding for better spacing on smaller screens */
+  text-decoration: none;
+  display: inline-block;
+}
   
   .topnav a:hover {
     background-color: rgb(141, 182, 0);
@@ -163,8 +162,41 @@ footer {
   border: 1ch solid rgb(36, 33, 36);
 }
 
-/* Media query for smaller screens */
-@media screen and (max-width: 600px) {
-    body 
-      font-size: 14px;
-    }
+/* Adding a media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px; /* Adjusted font size for smaller screens */
+  }
+
+  .topnav a {
+    font-size: small; /* Adjusted font size for smaller screens */
+  }
+
+  section#aboutme {
+    font-size: small; /* Adjusted font size for smaller screens */
+  }
+
+  section#intro {
+    font-size: small; /* Adjusted font size for smaller screens */
+  }
+
+  section#contact {
+    font-size: small; /* Adjusted font size for smaller screens */
+  }
+
+  section#info {
+    font-size: small; /* Adjusted font size for smaller screens */
+  }
+
+  .navbar a {
+    font-size: small; /* Adjusted font size for smaller screens */
+  }
+
+  table, th, td {
+    font-size: small; /* Adjusted font size for smaller screens */
+  }
+
+  footer {
+    font-size: smaller; /* Adjusted font size for smaller screens */
+  }
+}
