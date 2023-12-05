@@ -156,12 +156,11 @@ td {
 
 footer {
   background-color: rgb(141, 182, 0);
-  font-size: small;
+  font-size: medium;
   font-weight: bolder;
   color: rgb(36, 33, 36);
   border: 1ch solid rgb(36, 33, 36);
 }
-<<<<<<< HEAD:portfolio/css/styles.css
 #btn-alert{
   background-color: rgb(36, 33, 36);
   color: rgb(141, 182, 0);
@@ -174,14 +173,22 @@ footer {
 .even {
   /* Styles for even count */
   color: rgb(141, 182, 0);
+  font-family: 'Nova Square', sans-serif;
+  font-size: small;
 }
 
 .odd {
   /* Styles for odd count */
   color: rgb(36, 33, 36);
+  font-family: 'Nova Square', sans-serif;
+  font-size: small;
 }
-=======
->>>>>>> parent of 603a785 (Merge pull request #4 from kenny-rob/styles.css):portfolio/styles.css
+#btn-counter{
+  background-color: rgb(141, 182, 0);
+  color: rgb(36, 33, 36);
+  font-family: 'Nova Square', sans-serif;
+  font-size: small;
+}
 
 /* Adding a media query for smaller screens */
 @media only screen and (max-width: 600px) {
