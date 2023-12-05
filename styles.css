@@ -166,5 +166,5 @@ footer {
 /* Media query for smaller screens */
 @media screen and (max-width: 600px) {
     body 
-      font-size: 14px;
+      font-size:14px;
     }
