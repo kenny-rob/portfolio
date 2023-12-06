@@ -161,8 +161,8 @@ footer {
   color: rgb(36, 33, 36);
   border: 1ch solid rgb(36, 33, 36);
 }
-<<<<<<< HEAD
-#btn-alert{
+
+#btn-alert {
   background-color: rgb(36, 33, 36);
   color: rgb(141, 182, 0);
   font-size: large;
@@ -219,5 +219,3 @@ footer {
     font-size: smaller; /* Adjusted font size for smaller screens */
   }
 }
-=======
->>>>>>> parent of 83bdc6a (commit)
