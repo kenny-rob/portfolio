@@ -156,7 +156,7 @@ td {
 
 footer {
   background-color: rgb(141, 182, 0);
-  font-size: medium;
+  font-size: small;
   font-weight: bolder;
   color: rgb(36, 33, 36);
   border: 1ch solid rgb(36, 33, 36);
@@ -173,21 +173,11 @@ footer {
 .even {
   /* Styles for even count */
   color: rgb(141, 182, 0);
-  font-family: 'Nova Square', sans-serif;
-  font-size: small;
 }
 
 .odd {
   /* Styles for odd count */
   color: rgb(36, 33, 36);
-  font-family: 'Nova Square', sans-serif;
-  font-size: small;
-}
-#btn-counter{
-  background-color: rgb(141, 182, 0);
-  color: rgb(36, 33, 36);
-  font-family: 'Nova Square', sans-serif;
-  font-size: small;
 }
 
 /* Adding a media query for smaller screens */
