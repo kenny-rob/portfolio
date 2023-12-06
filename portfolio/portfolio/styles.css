@@ -1,3 +1,8 @@
+/* Add viewport meta tag for better mobile responsiveness */
+meta {
+  content: width=device-width, initial-scale=1.0;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -6,53 +11,52 @@ body {
   flex-direction: column;
   font-family: 'Nova Square', sans-serif;
   background-color: rgb(141, 182, 0);
-  margin: auto;
-  padding: auto;
+  margin: 0; /* Reset margin for better consistency */
+  padding: 0; /* Reset padding for better consistency */
 }
 
 .topnav {
   background-color: rgb(249, 248, 248);
   overflow: hidden;
   text-align: center;
-  border: 1px solid rgb(141, 182, 0); /* Adding a border for better visibility */
+  border: 1px solid rgb(141, 182, 0);
 }
 
 .topnav a {
   font-weight: bolder;
   font-size: medium;
   color: rgb(36, 33, 36);
-  padding: 8px 12px; /* Adjusted padding for better spacing on smaller screens */
+  padding: 8px 6px; /* Adjusted padding for better spacing on smaller screens */
   text-decoration: none;
   display: inline-block;
 }
-  
-  .topnav a:hover {
-    background-color: rgb(141, 182, 0);
-    color: rgb(36, 33, 36);
-  }
-  
-  .topnav a:active {
-    background-color: rgb(249, 248, 248);
-    color: rgb(141, 182, 0);
-    text-decoration: underline;
-  }  
+
+.topnav a:hover {
+  background-color: rgb(141, 182, 0);
+  color: rgb(36, 33, 36);
+}
+
+.topnav a:active {
+  background-color: rgb(249, 248, 248);
+  color: rgb(141, 182, 0);
+  text-decoration: underline;
+}
 
 h1 {
   background-color: rgb(36, 33, 36);
   padding-bottom: 0.5%;
   font-weight: bolder;
-  font-size: xx-large;
+  font-size: 2em; /* Use em units for better scalability */
   color: rgb(141, 182, 0);
   padding: 5%;
-  border-style:double;
+  border-style: double;
   border-width: 1ch;
 }
+
 #work {
-padding-top: 5%;
-padding-bottom: 5%;
-background-color: rgb(36, 33, 36)
-
-
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: rgb(36, 33, 36);
 }
 
 #aboutme {
@@ -66,12 +70,11 @@ background-color: rgb(36, 33, 36)
 }
 
 .mepic {
-    background-color: rgb(249, 248, 248);
-    border-radius: 80%;
-    border-style: dotted;
-    border-width: 1ch;
-    border-color: rgb(36, 33, 36);
-
+  background-color: rgb(249, 248, 248);
+  border-radius: 80%;
+  border-style: dotted;
+  border-width: 1ch;
+  border-color: rgb(36, 33, 36);
 }
 
 #intro {
@@ -113,30 +116,32 @@ background-color: rgb(36, 33, 36)
   font-size: small;
   padding-bottom: 1%;
 }
+
 .navbar a:hover {
-    background-color: rgb(141, 182, 0);
-    color: rgb(36, 33, 36);
-  }
+  background-color: rgb(141, 182, 0);
+  color: rgb(36, 33, 36);
+}
+
 #things {
   background-color: rgb(36, 33, 36);
   text-align: center;
   padding-top: 5%;
-
 }
 
 table, th, td {
   border: 3px solid rgb(249, 248, 248);
   border-collapse: collapse;
   box-align: center;
-  margin:auto; /*center of the table*/
+  margin: auto; /* Center the table */
 }
+
 td a {
-    color: rgb(36, 33, 36);
+  color: rgb(36, 33, 36);
 }
 
 td:hover {
-background-color: rgb(249, 248, 248);
-color: rgb(36, 33, 36);
+  background-color: rgb(249, 248, 248);
+  color: rgb(36, 33, 36);
 }
 
 th {
@@ -167,10 +172,10 @@ footer {
   color: rgb(141, 182, 0);
   font-size: large;
   padding: 10px 20px;
-  font-size: 16px ;
-  border-radius: 50%
-  
+  font-size: 16px;
+  border-radius: 50%;
 }
+
 .even {
   /* Styles for even count */
   color: rgb(141, 182, 0);
@@ -179,6 +184,11 @@ footer {
 .odd {
   /* Styles for odd count */
   color: rgb(36, 33, 36);
+}
+
+#numbers {
+  color: rgb(249, 248, 248);
+  background-color: rgb(36, 33, 36);
 }
 
 /* Adding a media query for smaller screens */
@@ -211,7 +221,9 @@ footer {
     font-size: small; /* Adjusted font size for smaller screens */
   }
 
-  table, th, td {
+  table,
+  th,
+  td {
     font-size: small; /* Adjusted font size for smaller screens */
   }
 
